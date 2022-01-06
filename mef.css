@@ -1,0 +1,200 @@
+/* ######################### MEF général et tête de site ############################ */
+
+
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    background-image: url(./Images/background.png);
+    background-attachment: fixed;  
+    background-size: cover;
+    color:#0a002e;
+}
+header{
+    padding-bottom:1em;
+}
+
+h2.titleheader{
+    text-align:center;
+}
+
+.header2{
+    display:flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color:#0a002e;
+    font-weight: bold;
+    padding : 5px;
+}
+
+.header1{
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 10px;
+    background: white;
+    border-radius: 10%;
+    box-shadow: 1px 1px 12px #555;
+}
+
+body{
+    margin:0px;
+}
+
+/* ######################### Sections - index.html ############################ */
+
+section.train{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+img.train{
+    border-radius: 4%;
+    width: 80%;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.invisible{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px #555;
+
+    
+}
+
+.competence{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px #555;
+
+}
+
+.parcours{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px #555;
+
+}
+
+.presentation{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px #555;
+
+}
+
+div.imgcomp{
+    display:flex;
+    justify-content: space-around;
+}
+
+img.imgcomp1{
+    width:8%;
+    height:8%;
+}
+
+img.imgcomp2{
+    width:8.5%;
+    height:8.5%;
+}
+
+img.imgcomp3{
+    width:6%;
+    height:6%;
+}
+
+img.imgcomp4{
+    width:8%;
+    height:8%;
+}
+
+.pdp{
+    border-radius: 4%;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.deck{
+    border-radius: 4%;
+    box-shadow: 1px 1px 12px #555;
+}
+
+/* ######################### Sections - passion.html ############################ */
+
+.quotidien{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.histoire{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.ter{
+    width:30%;
+    height:30%;
+    border-radius: 4%;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.imghist{
+    width:30%;
+    height:30%;
+    border-radius: 4%;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.rtettrain{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.sncf{
+    width:30%;
+    height:30%;
+    border-radius: 4%;
+    box-shadow: 1px 1px 12px #555;
+}
